@@ -1,0 +1,33 @@
+.container{
+    width:100vw;
+    height:100vh;
+    background: wheat;
+    display: grid;
+    gap:1rem;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(3,1fr);
+    
+}
+.item{
+    background: red;
+    border-radius: 3px;
+}
+#first{
+    background: orange;
+    grid-column-start: 1;
+    grid-column-end: 4;
+}
+#two{
+    background: green;
+    grid-column-start: 1;
+    grid-column-end: 2;
+}
+#three{
+    grid-column-start: 2;
+    grid-column-end: 4;
+}
+#four{
+grid-column-start: 1;
+grid-column-end: 4;
+background: forestgreen;
+}

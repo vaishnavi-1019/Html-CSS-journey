@@ -1,0 +1,53 @@
+<!-- the ways to apply css  -->
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        /* h1 bg color inline yellow have more priority than internal  */
+        h1{
+            color:green;
+            background: red!important;
+        }
+        #unique{
+            color:brown;
+            background: pink;
+        }
+        .group{
+            color:black;
+            background: lightcoral;
+        }
+    </style>
+    <link rel="stylesheet" href="01_lec.css">
+ </head>
+ <body>
+    
+    <!-- inline css  -->
+    <h1 style="background: yellow;">Welcome to codeHelp</h1>
+
+    <p id="unique">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas, veritatis dolore, placeat facilis laboriosam cum tenetur nihil, blanditiis ad ea nulla modi mollitia architecto inventore.</p>
+
+    <p class="group">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Enim sunt minima quae quidem laborum consequatur illo libero. Provident, dolore id, aliquid ut dicta minima, ad possimus itaque officiis tempora accusantium.</p>
+    <p id="second">
+
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste fuga sed incidunt facere perferendis necessitatibus illo recusandae dolores! Dolores, possimus! Corrupti eveniet voluptatibus modi quaerat recusandae deserunt, tempora distinctio officiis! Cupiditate libero adipisci ullam aut?
+    </p>
+    <footer>
+        i am footer 
+    </footer>
+ </body>
+ </html>
+
+ <!-- priority will be 
+  1.inline 
+  
+  1.internal if you provide important -->
+
+  <!-- 
+  1-> tags like h1 , p ,header,footer
+  2-> id -#
+  3-> class -.
+  -->

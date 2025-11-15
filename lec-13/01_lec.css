@@ -1,0 +1,17 @@
+/* external css apply  */
+
+#second{
+    font-size: smaller;
+    text-align: center;
+    background: lightgrey;
+}
+
+footer{
+    background: #000;
+    color:white;
+    text-align: center;
+}
+
+p,h1{
+    width:500px;
+}

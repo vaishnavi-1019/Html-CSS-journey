@@ -1,0 +1,60 @@
+.container{
+    background: wheat;
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: repeat(5,1fr);
+}
+.item{
+    background: red;
+    border-radius: 4px;
+}
+#first{
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+#two{
+    background: green;
+}
+#three{
+    background: orange;
+}
+#four{
+
+    background: orangered;
+}
+#five{
+    background: green;
+}
+#six{
+    background: forestgreen;
+}
+#seven{
+    background: wheat;
+}
+#eight{
+    background: orange;
+    grid-row-start: 3;
+    grid-row-end: 5;
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+#nine{
+    background: lightgreen;
+}
+#eleven{
+    background: green;
+}
+#twelve{
+    background: wheat;
+}
+#thirteen{
+    background: lightgreen;
+    grid-column-start: 1;
+    grid-column-end: 4;
+}
+#fourteen{
+    background: orange;
+}

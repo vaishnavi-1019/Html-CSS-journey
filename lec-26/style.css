@@ -1,0 +1,147 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+#navlist
+{
+    list-style: none;
+    font-size: 2rem;
+    display: flex;
+    justify-content: space-between;
+    margin-left:15px;
+    margin-right:15px;
+    align-items: center;
+    /* padding:10px; */
+
+}
+.container{
+    width: 100vw;
+    height: 100%;
+    overflow-x: none;
+    background: #e8669c;
+background: radial-gradient(circle, rgba(232, 102, 156, 1) 0%, rgba(148, 187, 233, 1) 100%);
+
+}
+.navcontainer{
+    width:100%;
+    /* background: rgba(113,113,154,0.776); */
+    background: #3F5EFB;
+background: radial-gradient(circle, rgba(63, 94, 251, 1) 0%, rgba(252, 70, 107, 1) 100%);
+    min-height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+#navlogo{
+    font-size: 2.2rem;
+    color:white;
+}
+nav{
+    width:100%;
+    overflow-x:none;
+}
+a{
+    text-decoration: none;
+    color:white;
+}
+#navitems{
+    display: flex;
+    gap:40px;
+}
+.footerbox
+{
+   background: #3F5EFB;
+background: radial-gradient(circle, rgba(63, 94, 251, 1) 0%, rgba(252, 70, 107, 1) 100%);
+
+width:100%;
+text-align:center;
+min-height: 40px;
+}
+.footerbox p{
+color:white;
+font-size: 2rem;
+}
+.contentbox{
+    width:70%;
+    margin:auto;
+    background: white;
+    display: flex;
+    flex-direction: column;
+    gap:100px;
+    align-items: center;
+    padding:3rem;
+    box-shadow: 10px 5px 5px grey;
+}
+.item{
+    display:flex;
+    justify-content: space-around; 
+    align-items: center;
+}
+
+.leftbox {   
+    display: flex;
+    flex-direction: column;
+    gap:18px;
+}
+.rightbox {
+    flex: 0 0 auto; 
+    position: relative;
+    overflow: hidden;
+    transition: all 0.3s linear 0s;
+    box-shadow: 1px 1px 10px black;
+    border-radius: 20px;
+    display: flex;
+}
+.rightbox img{
+    height: 290px;
+    width: 200px;
+    border-radius: 20px;
+    position: relative;
+    left:0;
+    object-fit: cover;
+    transform: none;
+    transition: transform 0.3s ease;
+}
+.leftbox h2{
+    font-size: 2rem;
+    font-weight: bold;
+}
+.Ingredients{
+    font-size: 1rem;
+     font-weight: bold;
+}
+.recipe{
+    font-size: 1rem;
+     font-weight: bold;
+}
+.rightbox:hover{
+    transform: scale(1.1);
+    transition: all 0.6s linear 0s;
+}
+.rightbox .overlay{
+position:absolute;
+top:0;
+left:0;
+height: 100%;
+width: 100%;
+background: rgba(36,34,34,0.713);
+display: flex;
+align-items: center;
+justify-content: center;
+border-radius: 20px;
+opacity: 0 ;
+}
+
+.rightbox:hover .overlay{
+    opacity: 1;
+    transition: all 0.6s linear 0s;
+}
+
+.rightbox .overlay .text{
+    color:white;
+    font-size: 1.2rem;
+    text-align: center;
+}

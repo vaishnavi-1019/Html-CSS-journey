@@ -1,0 +1,37 @@
+		LECTURE-2 
+		==========
+
+->imp terms 
+
+->network:Many devices are connected to each other for sharing data or any information 
+
+->types of networks are :
+	-LAN -Local Area Network 
+	-that is in very small area range
+
+	-MAN-Metropolitian Area Network 
+	-like network in city or state
+
+	-WAN-Wide Area Network
+	- this is wireless network and also wide throgh the globally
+
+->Internet:
+Global system it is like network of networks!
+
+->WWW:World Wide Web
+
+->Browser: we have lots of data and resources but how can we access them so 
+the ebrowser is a tool that helps us to access them 
+
+->examples of browsers are:Safari,Chrome,edge etc...
+
+->Beside the browsers there is browser engine 
+
+ ->IP address is a unique number that identify the device uniquely 
+
+-> there is no www.facebook www.insta this are just domains domain naame system behind it there is a ip address 
+
+
+
+
+

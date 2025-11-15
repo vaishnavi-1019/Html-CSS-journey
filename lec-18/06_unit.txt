@@ -1,0 +1,35 @@
+we have two units like absolute and relative 
+absolute will be fixed 
+and relative one will be relative to another parent or something like chaging not fixed 
+
+
+(1) absolute:-
+pixel
+in
+cm
+mm
+pt 
+pc
+
+(2) relative one :-
+
+em 
+rem 
+%
+vw 
+vh 
+vmin
+vmax
+
+% for relative to parent or child 
+
+vh vw - for whole view of window 
+
+physical pixel :-light emitting dot related like fix dot in hardware screen
+
+while logical pixel is:- used by developers who use this for keeping element size consistent across different screen sizes.
+
+rem-for root element 
+body is root -16px 
+if we do font size 5rem 
+than it mul 16*5 =80 px 

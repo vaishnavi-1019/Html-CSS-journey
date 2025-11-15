@@ -1,0 +1,49 @@
+--block elements 
+(1) new line 
+
+(2) don't appear depend on the content but it takes 
+it's fixed whole width 
+
+(3) custom width and height will be taken by them 
+
+(4) mrgin and padding will apply all sides 
+--> 10 block elements 
+1 div
+2 h1,h2,h3,h4,h5,h6
+3 p
+4 section
+5 header
+6 footer 
+7 article 
+8 main
+9 nav 
+
+
+--inline elements 
+(1) same line 
+(2) content wise depend 
+(3) custom width and custom height not apply 
+(4) margin will not apply vertically 
+
+--you can change it by using 
+display:inline-block 
+
+-->10 inline elements 
+1 a
+2 img
+3 span
+4 b
+5 strong
+6 i
+7 em 
+8 u 
+9 sub
+10 sup
+11 label
+12 button
+13 input
+
+
+-->we have both like it will behave like an inline element and we can also apply custom width height and margin padding 
+
+display:inlint-block;

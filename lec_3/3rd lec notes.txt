@@ -1,0 +1,14 @@
+	LECTURE -3
+	----------------------
+
+->for sending data  we need to first know the address of the recieving device 
+
+-> client give request to server and server send the response to the client 
+
+-> ISP -Internet Service Provider
+
+	->Protocol stack
+	small chunks of files are called paackets 
+
+	protocols are set of rules that shoulld be follow 
+

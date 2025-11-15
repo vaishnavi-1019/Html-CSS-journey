@@ -1,0 +1,67 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+/* .box{
+    border:2px solid red;
+    width:25%;
+} */
+
+/* .parent{
+    border: 1px solid black;
+    background-color:beige;
+    width: 50%;
+}
+.child{
+    border: 1px solid green ;
+    background: aqua;
+    width:20%;
+} */
+
+
+/* .container{
+    background: beige;
+    border:1px solid black;
+    height:100vh;
+    width:50vw;
+} */
+
+/* .box1{
+    border:2px solid red;
+    font-size: 100px;
+    height: 200px;
+    width:200px;
+} */
+
+/* .wrapper{
+    font-size: 1em;
+}
+
+.px{
+    width:200px;
+}
+
+.vw{
+    width:10vw;
+}
+
+.em{
+    width:10em;
+} */
+
+/* .container{
+    font-size: 10px;
+}
+
+p{
+    font-size: 10em;
+}
+
+.box{
+    font-size: 10em;
+} */
+
+.firstpara{
+    font-size: 5rem;  
+}

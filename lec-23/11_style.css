@@ -1,0 +1,89 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+.container{
+    height:100vh;
+    width:100vw;
+    background: beige;
+    border:2px solid black;
+}
+.box{
+    width:200px;
+    height:80px;
+    background: blue;
+    border-radius:50px;
+    margin:10px;
+    position:relative;
+    border:3px solid red;
+    /* animation-name: movement;
+    animation-duration: 5s;
+    animation-iteration-count: 1;
+    animation-timing-function: linear; */
+
+    /* animation-direction: reverse; */
+    /* animation-fill-mode:both; */
+
+    /* shorthand  */
+    animation:5s linear 1s infinite alternate none running movement;
+}
+@keyframes movement{
+    from{
+        top:0;
+        left:0;
+    }
+    to {
+        top:0;
+        left:1400px;
+    }
+}
+#box1{
+    width:200px;
+    height:80px;
+    background: blue;
+    border-radius:50px;
+    margin:10px;
+    position:relative;
+    border:3px solid red;
+      animation:5s linear 1s infinite alternate none running leftmovement;
+}
+@keyframes leftmovement{
+    from{
+        top:680px;
+        left:1400px;
+    }
+    to {
+        top:680px;
+        left:0px;
+    }
+}
+.cir{
+    height:200px;
+    width:200px;
+    background: white;
+    border-radius:500px;
+    position:relative;
+    top:20%;
+    left:45%;
+    border:black 5px solid;
+      animation:10s ease-in-out infinite alternate none running cirmovement;
+}
+@keyframes cirmovement{
+    0%{
+       top:1%;
+       left:5%;
+    }
+    30%{
+        top:5%;
+        left:50%;
+    }
+    60%{
+        top:50%;
+        left:10%;
+    }
+100%{
+top:50%;
+left:50%;
+    }
+}

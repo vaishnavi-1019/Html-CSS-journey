@@ -1,0 +1,22 @@
+.container{
+    height: 100vh;
+    width:100vw;
+    background: wheat;
+    display: grid;
+    gap:1rem;
+    grid-template-columns: repeat(5,1fr);
+    grid-template-rows: repeat(3,1fr);
+}
+.item{
+border-radius:3px;
+background: hotpink;
+border:2px solid skyblue;
+}
+#eight{
+    grid-column-start: 3;
+  grid-column-end: 6;
+}
+#nine{
+    grid-column-start: 1;
+    grid-column-end: 6;
+}

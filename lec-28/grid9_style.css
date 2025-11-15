@@ -1,0 +1,48 @@
+.container{
+    width: 100vw;
+    height: 100vh;
+    background: wheat;
+    display: grid;
+    gap:1rem;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(3,1fr);
+}
+.item{
+    border-radius: 4px;
+}
+#first{
+    background: orange;
+     border:2px solid white;
+}
+#two{
+    background: lightgreen;
+     border:2px solid white;
+}
+#three{
+    background: red;
+    grid-row-start: 2;
+    grid-row-end: 4;
+     border:2px solid white;
+}
+#four{
+    grid-row-start: 2;
+    grid-row-end: 4;
+    background: forestgreen;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(2,1fr);
+    border:2px solid white;
+}
+#subone{
+    grid-column-start: 1;
+    grid-column: 3;
+     border:2px solid white;
+}
+#subtwo{
+    background: darkgreen;
+     border:2px solid white;
+}
+#subthree{
+    background: orange;
+     border:2px solid white;
+}

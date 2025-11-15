@@ -1,0 +1,27 @@
+                   LECTURE-1
+                  ----------------------
+
+-> web dev for creating website or web applications
+
+-> websites are like static in content 
+like wikipedia pages for info. like read only
+
+-> but the web application is dynamic in nature 
+like linkdin content change
+for interacting like post and share ,react ...
+
+->depends on the demand of customer
+
+->   to create web application 
+	- frontend /ui 
+	html,css,js
+	- backend 
+	logic ,nodeJS
+	-db layer
+	data realted ,sql,nosql
+
+->MERN stack 
+	-MongoDB
+	-ExpressJS
+	-React
+	-NodejJS  

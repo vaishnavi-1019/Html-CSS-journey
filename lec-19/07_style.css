@@ -1,0 +1,29 @@
+/* #img1{
+    float:right;
+    height: 250px;
+}
+#img2{
+    float:right;
+    height: 250px;
+    clear:right;
+}
+.box{
+    border:1px solid black;
+    overflow: auto;
+}
+.item{
+    width:200px;
+    height:200px;
+    margin:2px;
+    background: aquamarine;
+    border:1px solid black;
+    float: left;
+} */
+
+.container{
+    border:1px solid black;
+    width:500px;
+    height:500px;
+    overflow: scroll;
+    
+}

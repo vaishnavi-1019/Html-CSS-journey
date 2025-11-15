@@ -1,0 +1,36 @@
+/* *{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+} */
+
+.container{
+    height: 100vh;
+    width: 100vw;
+    background: cornsilk;
+    display: grid;
+    gap:1rem;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(3,1fr);
+}
+.item{
+    border-radius: 3px;
+}
+#first{
+    background-color:crimson;
+}
+#two{
+    background-color:chocolate;
+}
+#three{
+background-color:coral;
+}
+#four{
+background-color:green;
+}
+#five{
+background-color:forestgreen;
+}
+#six{
+background-color:lightgreen;
+}

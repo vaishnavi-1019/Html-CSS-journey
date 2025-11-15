@@ -1,0 +1,110 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+/* block elements  */
+div{
+    border:2px solid red;
+    width:300px;
+    height: 300px;
+    margin:25px;
+    padding:5px;
+}
+p{
+    border:2px solid red;
+}
+h1{
+    border:2px solid red;
+}
+
+section{
+    border:2px solid red;
+}
+header{
+    border:2px solid red;
+}
+footer{
+    border:2px solid red;
+}
+article{
+    border:2px solid red;
+}
+nav{
+    border:2px solid red;
+}
+main{
+    border:2px solid red;
+}
+aside{
+    border:2px solid red;
+}
+
+/* box sizing vorder box  */
+.box{
+    display: inline-block; 
+    width: 300px;
+    height:300px;
+    background: red;
+    border:1px solid black;
+    padding:100px;   
+}
+
+/* inline elements  */
+span{
+    border:2px solid black;
+    height: 300px;
+    width:300px;
+    margin:10px;
+    padding:20px;
+    display: block;
+}
+a{
+    border:2px solid black;
+}
+img{
+     border:2px solid black;
+}
+
+b{
+    border: 2px solid black;
+}
+
+strong{
+     border: 2px solid black;
+}
+
+i{
+     border: 2px solid black;
+}
+
+em{
+     border: 2px solid black;
+}
+
+u{
+     border: 2px solid black;
+}
+
+small{
+     border: 2px solid black;
+}
+
+sup{
+     border: 2px solid black;
+}
+
+sub{
+     border: 2px solid black;
+}
+
+label{
+     border: 2px solid black;
+}
+input{
+     border: 2px solid black;
+}
+button{
+     border: 2px solid black;
+}

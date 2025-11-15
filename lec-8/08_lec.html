@@ -1,0 +1,119 @@
+<!-- form basics -->
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form-basics</title>
+ </head>
+ <body>
+    <form>
+        <fieldset>
+            <legend>Login Page</legend>
+        <p><label for="id">Login ID:</label>
+        <input type="email" name="lofinID" id="id" placeholder="Enter your email"></p>
+        <p>
+            <label for="pass">Password:</label>
+            <input type="password" name="pass" id="pass" placeholder="Enter your password">
+        </p>
+        <p>
+            <input type="submit" value="click here">
+        </p>
+        </fieldset>
+    </form>
+
+     <!-- label for addributes value==input id addribute   -->
+
+    <br><br><br>
+     <form>
+        <fieldset>
+        <legend>form-2</legend>
+        <p>
+            <label for="date">BirthDate:</label>
+            <input type="date" name="bod" id="date">
+        </p>
+        <p>
+            <label for="selector">Choose dishes</label>
+           <select name="dishes" id="selector">
+            <option value="default">--select dish--</option>
+            <option value="kurkure">kurkure</option>
+            <option value="chips">chips</option>
+            <option value="coca">coca</option>
+           </select>
+        </p>
+
+        <p>
+            <button>Click me</button>
+        </p>
+
+        <textarea name="comment" id="feed" placeholder="Give me your feedback" rows="5" cols="90"></textarea>
+
+        <p>
+            <label for="drink">Select drink:</label>
+            <select name="drink" id="drink" multiple size="4">
+                <option value="pepsi">Pepsi</option>
+                <option value="coca">coca</option>
+                <option value="matcha">matcha</option>
+                <option value="chai">chai</option>
+                <option value="coffee">coffee</option>
+            </select>
+        </p>
+        </fieldset>
+     </form>
+<br><br><br>
+     <form>
+        <fieldset>
+            <legend>Form-3</legend>
+        <p>
+            <label for="name">Enter name:</label>
+            <input type="text" name="name" id="name">
+        </p>
+        <p>
+            <button>Me hu button</button>
+        </p>
+        <p>
+            <input type="submit" value="subscribe">
+        </p>
+        <p>
+            <label for="gender">Choose Gender:</label>
+            <input type="radio" name="gender" id="male">
+            <label for="male">Male</label>
+            <input type="radio" name="gender" id="female">
+            <label for="female">Female</label>
+            <input type="radio" name="gender" id="other">
+            <label for="other">Other</label>
+        </p>
+       <p>
+        <label for="lang">Choose language:</label>
+        <br>
+        <input type="checkbox" name="lang" id="hindi">
+        <label for="hindi">Hindi</label>
+        <br>
+        <input type="checkbox" name="lang" id="english">
+        <label for="english">English</label>
+        <br>
+        <input type="checkbox" name="lang" id="urdu">
+        <label for="Urdu">Urdu</label>
+        <br>
+        <input type="checkbox" name="lang" id="marathi">
+        <label for="marathi">Marathi</label>
+        <br>
+        </p>
+
+        <p>
+            <label for="file">File :</label>
+            <br>
+            <input type="file" name="file" id="file">
+        </p>
+
+        <p>
+            <input type="image" src="wallapaper.png" alt="button" width="50px">
+        </p>
+
+        </fieldset>
+     </form>
+     
+
+    
+ </body>
+ </html>
